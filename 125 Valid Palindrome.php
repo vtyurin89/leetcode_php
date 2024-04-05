@@ -1,5 +1,4 @@
 class Solution {
-
     /**
      * @param String $s
      * @return Boolean
@@ -18,7 +17,6 @@ assert($sol -> isPalindrome("A man, a plan, a canal: Panama") == true);
 
 
 class Solution2 {
-
 /**
  * @param String $s
  * @return Boolean
@@ -50,4 +48,3 @@ $sol -> isPalindrome("Mama");
 assert($sol2 -> isPalindrome("Mama") == false);
 assert($sol2 -> isPalindrome("ababa") == true);
 assert($sol2 -> isPalindrome("A man, a plan, a canal: Panama") == true);
-
