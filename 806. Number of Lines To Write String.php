@@ -3,11 +3,6 @@
 
 class Solution {
 
-    /**
-     * @param Integer[] $widths
-     * @param String $s
-     * @return Integer[]
-     */
     function numberOfLines($widths, $s) {
     	 $line_width = 100;
 		 $res_array = array(0 => array());
@@ -28,7 +23,6 @@ class Solution {
 		return array(0 => $res_array_index + 1, 1 => array_sum($res_array[$res_array_index]));
 }
 }
-
 
 
 $sol = new Solution();
