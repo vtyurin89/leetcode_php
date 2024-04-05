@@ -1,5 +1,4 @@
 <?php
-// @codingStandardsIgnoreFile
 
 class Solution {
 
