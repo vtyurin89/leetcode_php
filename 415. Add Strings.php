@@ -30,7 +30,7 @@ class Solution {
         $j = strlen($minNum) - 1;
         
         while($j >= 0) {
-            $res = intval($minNum[$j]) + intval($result[$i]) + $next_line;
+            $res = $minNum[$j] + $result[$i] + $next_line;
             $next_line = 0;
             if ($res > 9) {
                 $res = $res - 10;
@@ -57,6 +57,7 @@ class Solution {
         return $result;
         }
     }
+    
     
     $sol = new Solution();
     assert($sol -> addStrings("3876620623801494171", "6529364523802684779") === "10405985147604178950");
