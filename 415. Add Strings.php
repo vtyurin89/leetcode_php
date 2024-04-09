@@ -41,7 +41,7 @@ class Solution {
             $j -= 1;
         }
         while($next_line) {
-            $res = intval($result[$i]) + $next_line;
+            $res = $result[$i] + $next_line;
             $next_line = 0;
             if ($res > 9) {
                 $res = $res - 10;
