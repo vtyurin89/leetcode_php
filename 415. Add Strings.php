@@ -58,7 +58,6 @@ class Solution {
         }
     }
     
-    
     $sol = new Solution();
     assert($sol -> addStrings("3876620623801494171", "6529364523802684779") === "10405985147604178950");
     assert($sol -> addStrings("999", "1") === '1000');
