@@ -64,5 +64,6 @@ class Solution {
     assert($sol -> addStrings("999", "1") === '1000');
     assert($sol -> addStrings("456", "77") === '533');
     assert($sol -> addStrings("11", "123") === '134');
+    assert($sol -> addStrings("145", "15") == "160");
 
 ?>
