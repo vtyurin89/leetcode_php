@@ -49,7 +49,7 @@ class Solution {
     	}
     	$res = array();
     	foreach ($result as $key => $value) {
-        // Дублируем ключ $key $value раз
+
         for ($i = 0; $i < $value; $i++) {
             $res[] = $key;
         }
